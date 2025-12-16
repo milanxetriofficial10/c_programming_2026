@@ -60,4 +60,26 @@ int main (){
     return 0;
 }
 
+// Hold Data types code now here this 
+
+#include <stdio.h>
+int main(){
+    int age = 20;
+    double Number = 9552852;
+    float height = 5.1f;
+    long Lenth = 581; 
+    char grade = 'A';
+    
+    
+    printf("The age = %d\n", age);
+    printf("The Height = %f\n", height);
+    printf("The Number = %lf\n", Number);
+    printf("The Lenth = %lf\n", Lenth);
+    printf("The Grade = %c\n", grade);
+    
+    
+    return 0;
+}
+
+
 
