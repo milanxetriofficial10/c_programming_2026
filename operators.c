@@ -89,5 +89,7 @@ int main(){
 }
 
 // 2. Relational Operators in c programming 
+/*
 
+*/
 

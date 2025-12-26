@@ -1,3 +1,4 @@
+//Milan Adhikari
 /*
 In C programming, a data type is the quiet rule that tells the computer what kind of data a variable can hold and how much memory it needs.
 
