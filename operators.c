@@ -89,7 +89,76 @@ int main(){
 }
 
 // 2. Relational Operators in c programming 
-/*
 
-*/
+// Milan Adhikari Programmer
+  #include <stdio.h>
+  int main (){
+      int a = 10,
+      b = 20;
+      printf("The value = %d\n", a == b);
+      printf("The value = %d\n", a != b);
+      printf("The value = %d\n", a > b);
+      printf("The value = %d\n", a < b);
+      printf("The value = %d\n", a >= b);
+      printf("The value = %d\n", a <= b);
+      
+      
+      return 0;
+  }
+
+  // 3. Logical Operators
+  // Milan Adhikari Programmer
+  #include <stdio.h>
+  int main(){
+      int a = 10, b = 5, c = 20;
+      
+      printf("The value = %d\n", a > b && a < c );
+      printf("The value = %d\n", a > b || a < c );
+      return 0;
+  }
+
+// 4. Assignment Operators
+
+// Milan Adhikari Programmer
+#include <stdio.h>
+int main(){
+    int b = 10;
+    
+    b += 5;
+    printf("The Value = %d\n", b);
+    
+   b -= 3;
+   printf("The Value = %d\n", b); // total number like 15 - 3 = 12
+    
+    b *= 2; // now this total num like 12 * 2 = 24 
+    printf("The Value = %d\n", b); 
+    
+    b /= 2; // total number of like 24 / 2 = 12
+    printf("The Value = %d\n", b);
+    
+    b %= 3; // same here 
+    printf("The Value = %d\n", b);
+    
+    return 0;
+    
+}
+
+// 5. Increment / Decrement Operators
+
+// Milan Adhikari Programmer
+
+#include <stdio.h>
+int main(){
+    
+    int a = 5;
+    
+    a++; // now + 1 for example total numeber 5 + 1 = 6 here 
+    printf("The Value = %d\n", a); 
+    
+    // the total value - like for example = 6 - 1 = output 5
+    
+    a --;
+    printf("The Value = %d\n", a);
+    return 0;
+}
 
